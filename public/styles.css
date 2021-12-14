@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  text-align: center;
+}
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: gainsboro;
+}
+.Header {
+  background: rgb(180, 34, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(180, 34, 195, 1) 0%,
+    rgba(45, 49, 253, 1) 100%
+  );
+  color: black;
+  font-family: "Rampart One", cursive;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+}
+
+.meme {
+  position: relative;
+  width: 90%;
+  margin: auto;
+}
+
+.meme > img {
+  height: 30%;
+  width: 40%;
+}
+
+.meme > h2 {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.meme > .bottom {
+  bottom: 0;
+}
+
+.meme > .top {
+  top: 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  left: 47%;
+  color: black;
+}
